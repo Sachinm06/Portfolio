@@ -1,0 +1,208 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background: blue;
+}
+
+.main-wrapper {
+    background: url("Images/wallpaperflare.com_wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 790px;
+    width: 100%;
+
+}
+
+.bdysection {
+    height: 3000px;
+    background: linear-gradient(135deg, rgb(17, 17, 92),rgb(68, 12, 12) );
+}
+
+#navbtn {
+    color: white;
+    background-color: white;
+    border: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+/* links */
+a {
+    text-decoration: none !important;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    color: red !important;
+}
+
+/* navbar */
+
+.navbar {
+    position: relative;
+    background-color: rgba(153, 153, 153, 0.25);
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.navbar ul li {
+    position: relative;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+}
+
+.navbar ul li a {
+    position: relative;
+    display: block;
+    font-family: "poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 800px;
+    line-height: 14px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* banner-content */
+
+.banner-section {
+    position: relative;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+
+}
+
+.banner-section .banner-title {
+    position: relative;
+    margin: 0;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+    font-family: "poppins", sans-serif;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.banner-section .banner-desc {
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.banner-section .banner-btn {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* footer */
+
+.footer {
+    position: relative;
+    padding-top: 50px;
+}
+
+.footer .social-media .footer-list {
+    position: relative;
+    margin: 0 0 20px 0;
+    display: inline-block;
+
+}
+
+.footer .social-media .footer-list li {
+    float: left;
+    margin-right: 10px;
+
+}
+
+.footer .social-media .footer-list li a {
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+/* about section */
+
+.about-section {
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.about-section .about-title {
+    position: relative;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.about-section .about-desk{
+    position: relative;
+    font-size: 22px;
+    font-weight: 500;
+    color: #999;
+}
+.abtimg{
+    overflow-x: hidden;
+}
+.proimg{
+    width: 100%;
+    border-radius: 1%;
+}
+.projhead{
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgb(52, 52, 209),rgb(209, 55, 55) );
+
+}
+.projhead h2{
+    color:white;
+    font-weight: 500;
+    letter-spacing: 3px;
+
+}
+.project-section .port-title{
+    position: relative;
+    padding-top: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.project-section .port-tech,
+.project-section .port-name
+{
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.project-section .port-desc{
+    position: relative;
+    font-size: 22px;
+    font-weight: 100;
+}
