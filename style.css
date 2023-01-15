@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC&family=Bebas+Neue&family=Blinker:wght@300;600&family=Changa&family=Cinzel&family=Fira+Sans:wght@100;200;400;500;600&family=Gloria+Hallelujah&family=Londrina+Solid:wght@300&family=Michroma&family=Notable&family=Orbitron&family=Poiret+One&family=Quicksand:wght@300&family=Rokkitt:wght@200&family=Rubik+Vinyl&family=Sevillana&family=Staatliches&family=Taviraj:wght@500&family=Ubuntu:wght@700&display=swap');
 body {
     margin: 0 auto;
     padding: 0;
@@ -19,7 +20,7 @@ body {
 
 .bdysection {
     height: 100%;
-    background: linear-gradient(135deg, rgb(17, 17, 92),rgb(68, 12, 12) );
+    background: linear-gradient(181deg, transparent, rgb(18, 18, 80), rgb(14, 45, 12),rgb(66, 14, 14));
 }
 
 #navbtn {
@@ -27,6 +28,14 @@ body {
     background-color: white;
     border: none;
 
+}
+
+.logotxt {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logotxt span {
+    color: red;
 }
 
 ul {
@@ -84,20 +93,23 @@ a:hover {
 .banner-section .banner-title {
     position: relative;
     margin: 0;
-    padding-top: 0rem;
+    padding-top: -2rem;
     padding-bottom: 2rem;
-    font-family: "poppins", sans-serif;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 1px;
     color: white;
+    font-family: 'Changa', sans-serif;
 }
+
 
 .banner-section .banner-desc {
     position: relative;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     color: whitesmoke;
+    font-family: 'Rokkitt', serif;
+
 }
 
 .banner-section .banner-btn {
@@ -108,7 +120,8 @@ a:hover {
     text-transform: uppercase;
     color: #999;
 }
-.dwldbtn{
+
+.dwldbtn {
     color: white;
 }
 
@@ -116,7 +129,7 @@ a:hover {
 
 .footer {
     position: relative;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .footer .social-media .footer-list {
@@ -128,13 +141,13 @@ a:hover {
 
 .footer .social-media .footer-list li {
     float: left;
-    margin-right: 10px;
+    margin-right: 50px;
 
 }
 
 .footer .social-media .footer-list li a {
     position: relative;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
     letter-spacing: 0.5rem;
     color: white;
@@ -160,33 +173,40 @@ a:hover {
     text-transform: uppercase;
     color: #fff;
 }
-.about-section .about-desk{
+
+.about-section .about-desk {
     position: relative;
     font-size: 22px;
     font-weight: 500;
     color: #999;
+    font-family: 'Rokkitt', serif;
 }
-.abtimg{
+
+.abtimg {
     overflow-x: hidden;
 }
-.proimg{
+
+.proimg {
     width: 100%;
     border-radius: 1%;
 }
-.projhead{
+
+.projhead {
     height: 60px;
     background-color: rgba(255, 255, 255, 0.345);
     border-radius: 20px;
-    background: linear-gradient(135deg, rgb(52, 52, 209),rgb(209, 55, 55) );
+    background: linear-gradient(135deg, rgb(52, 52, 209), rgb(209, 55, 55));
 
 }
-.projhead h2{
-    color:white;
+
+.projhead h2 {
+    color: white;
     font-weight: 500;
     letter-spacing: 3px;
 
 }
-.project-section .port-title{
+
+.project-section .port-title {
     position: relative;
     padding-top: 2rem;
     font-family: "poppins", sans-serif;
@@ -195,17 +215,22 @@ a:hover {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
 .project-section .port-tech,
-.project-section .port-name
-{
+.project-section .port-name {
     position: relative;
     margin-top: 20px;
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
 }
-.project-section .port-desc{
+
+.project-section .port-desc {
     position: relative;
     font-size: 22px;
     font-weight: 100;
+}
+
+.txtarea {
+    height: 150px;
 }
