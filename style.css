@@ -20,7 +20,8 @@ body {
 
 .bdysection {
     height: 100%;
-    background: linear-gradient(181deg, transparent, rgb(18, 18, 80), rgb(14, 45, 12),rgb(66, 14, 14));
+    /* background-color: rgba(74, 74, 183, 0.607); */
+    background: linear-gradient(181deg, transparent, rgb(57, 57, 176), rgb(43, 63, 162));
 }
 
 #navbtn {
@@ -55,22 +56,26 @@ a:hover {
 /* navbar */
 
 .navbar {
-    position: relative;
+    
     background-color: rgba(153, 153, 153, 0.25);
 }
+/* .header{
+    position:sticky;
+    top: 0px;
+} */
 
 .navbar-collapse {
     text-align: center;
 }
 
 .navbar ul li {
-    position: relative;
+    /* position: relative; */
     margin-left: 2.5rem;
     margin-right: 1rem;
 }
 
 .navbar ul li a {
-    position: relative;
+    /* position: relative; */
     display: block;
     font-family: "poppins", sans-serif;
     font-size: 17px;
@@ -84,14 +89,14 @@ a:hover {
 /* banner-content */
 
 .banner-section {
-    position: relative;
+    /* position: relative; */
     padding-top: 6rem;
     padding-bottom: 3rem;
 
 }
 
 .banner-section .banner-title {
-    position: relative;
+    /* position: relative; */
     margin: 0;
     padding-top: -2rem;
     padding-bottom: 2rem;
@@ -104,7 +109,7 @@ a:hover {
 
 
 .banner-section .banner-desc {
-    position: relative;
+    /* position: relative; */
     font-size: 25px;
     font-weight: 700;
     color: whitesmoke;
@@ -113,7 +118,7 @@ a:hover {
 }
 
 .banner-section .banner-btn {
-    position: relative;
+    /* position: relative; */
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
@@ -128,12 +133,12 @@ a:hover {
 /* footer */
 
 .footer {
-    position: relative;
+    /* position: relative; */
     padding-top: 10px;
 }
 
 .footer .social-media .footer-list {
-    position: relative;
+    /* position: relative; */
     margin: 0 0 20px 0;
     display: inline-block;
 
@@ -146,7 +151,7 @@ a:hover {
 }
 
 .footer .social-media .footer-list li a {
-    position: relative;
+    /* position: relative; */
     font-size: 50px;
     font-weight: 500;
     letter-spacing: 0.5rem;
@@ -156,26 +161,26 @@ a:hover {
 /* about section */
 
 .about-section {
-    position: relative;
+    /* position: relative; */
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
 .about-section .about-title {
-    position: relative;
+    /* position: relative; */
     margin: 0;
     padding-top: 3rem;
     padding-bottom: 2rem;
     font-family: "poppins", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .about-section .about-desk {
-    position: relative;
+    /* position: relative; */
     font-size: 22px;
     font-weight: 500;
     color: #999;
@@ -184,11 +189,19 @@ a:hover {
 
 .abtimg {
     overflow-x: hidden;
+    margin-top: 10px;
+    padding-top: -25px;
+    
+}
+.abimg{
+    height: 500px;
 }
 
 .proimg {
     width: 100%;
     border-radius: 1%;
+    box-shadow: 0 2px 20px 0 rgb(0, 0, 0);
+
 }
 
 .projhead {
@@ -207,7 +220,7 @@ a:hover {
 }
 
 .project-section .port-title {
-    position: relative;
+    /* position: relative; */
     padding-top: 2rem;
     font-family: "poppins", sans-serif;
     font-size: 30px;
@@ -218,7 +231,7 @@ a:hover {
 
 .project-section .port-tech,
 .project-section .port-name {
-    position: relative;
+    /* position: relative; */
     margin-top: 20px;
     font-size: 16px;
     font-weight: 600;
@@ -226,11 +239,89 @@ a:hover {
 }
 
 .project-section .port-desc {
-    position: relative;
+    /* position: relative; */
     font-size: 22px;
     font-weight: 100;
 }
 
 .txtarea {
     height: 150px;
+}
+.accordion-item, .accordion-header{
+    background-color: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 50px;
+}
+.accordion-item{
+    box-shadow: 0 2px 20px 0 rgba(29, 28, 28, 0.398);
+}
+.collapsed{
+    width: 100%;
+    height: 60px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    
+}
+.accordion-body{
+    background: rgba(153, 153, 153, 0.072);
+    color: white;
+}
+.acc{
+    margin-top: 174px;
+}
+.eduul{
+    font-family: 'Rokkitt', serif;
+
+}
+@media screen and (max-width: 990px) {
+  .about-section .about-title{
+text-align: center;
+  } 
+  .proh1{
+      text-align: center;
+  }
+  .project-section .port-title{
+      text-align: center;
+  }
+  .project-section .port-tech{
+    text-align: center;
+}
+.project-section .port-name{
+    text-align: center;
+}
+.project-section .port-desc{
+    text-align: justify;
+}
+.footicon{
+    text-align: center;
+}
+}
+.contact-section{
+    margin-top: 60px;
+    background-color: rgba(153, 153, 153, 0.467);
+}
+.proh1{
+    /* position: relative; */
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-family: "poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: rgb(244, 236, 236);
+}
+.footicon p{
+    text-decoration: none;
+    color: black;
+}
+.footerl{
+    background-color: rgba(36, 26, 26, 0.331);
+    height: 30px;
+    color: rgba(255, 255, 255, 0.27);
+    font-size: 15px;
 }
