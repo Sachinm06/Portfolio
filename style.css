@@ -300,6 +300,10 @@ text-align: center;
 .footicon{
     text-align: center;
 }
+.footer .social-media .footer-list li a {
+    font-size: 30px;
+    
+}
 }
 .contact-section{
     margin-top: 60px;
