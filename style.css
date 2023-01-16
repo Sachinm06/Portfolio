@@ -192,9 +192,11 @@ a:hover {
     margin-top: 10px;
     padding-top: -25px;
     
+    
 }
 .abimg{
     height: 500px;
+    border-radius: 10px;
 }
 
 .proimg {
