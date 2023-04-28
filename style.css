@@ -307,7 +307,7 @@ text-align: center;
 }
 .contact-section{
     margin-top: 60px;
-    background-color: rgba(153, 153, 153, 0.467);
+    background-color: rgb(14 12 12 / 47%);
 }
 .proh1{
     /* position: relative; */
@@ -330,4 +330,7 @@ text-align: center;
     height: 30px;
     color: rgba(255, 255, 255, 0.27);
     font-size: 15px;
+}
+.whatsapp{
+    color: green;
 }
