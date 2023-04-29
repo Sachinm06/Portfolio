@@ -96,10 +96,7 @@ a:hover {
 
 }
 
-.banner-section .banner-title {
-    /* position: relative; */
-    margin: 0;
-    padding-top: -2rem;
+.banner-section  {
     padding-bottom: 2rem;
     font-size: 60px;
     font-weight: 400;
@@ -107,7 +104,12 @@ a:hover {
     color: white;
     font-family: 'Changa', sans-serif;
 }
-
+@media (max-width: 500px) {
+    .banner-section .banner-title {
+        font-size: 30px;
+        margin-top: -94px;
+    }
+}
 
 .banner-section .banner-desc {
     /* position: relative; */
@@ -116,6 +118,12 @@ a:hover {
     color: whitesmoke;
     font-family: 'Rokkitt', serif;
 
+}
+@media (max-width: 500px) {
+    .banner-section .banner-desc {
+        font-size: 20px;
+        margin-top: 20px;
+    }
 }
 
 .banner-section .banner-btn {
@@ -127,9 +135,11 @@ a:hover {
     color: #999;
 }
 
+
+
 .dwldbtn {
     color: white;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 /* footer */
