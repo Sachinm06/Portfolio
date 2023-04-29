@@ -10,7 +10,7 @@ body {
 }
 
 .main-wrapper {
-    background: url("Images/wallpaperflare.com_wallpaper.jpg");
+    background: url("Images/mainimg.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 790px;
@@ -129,6 +129,7 @@ a:hover {
 
 .dwldbtn {
     color: white;
+    padding: 5px;
 }
 
 /* footer */
@@ -338,4 +339,9 @@ text-align: center;
 .txt{
     text-decoration: none;
     color: #fff;
+}
+.social{
+    display: flex;
+    gap: 35px;
+    font-size: 40px;
 }
