@@ -47,6 +47,7 @@ ul {
 a {
     text-decoration: none !important;
     transition: all 0.5s ease-in-out;
+    color: #fff;
 }
 
 a:hover {
